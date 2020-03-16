@@ -1,0 +1,1 @@
+pg_dump --inserts --dbname=postgresql://postgres:postgres@192.168.3.100:5434/postgres -f D:\temp\2020.03.13_wiki.sql

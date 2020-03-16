@@ -1,0 +1,4 @@
+pg_dump --inserts --dbname=postgresql://postgres:postgres@192.168.3.100:5434/postgres -f D:\temp\2020.03.13_wiki.sql
+
+
+pg_restore -c --dbname=postgresql://postgres:postgres@192.168.3.100:5434/postgres C:\Users\Сергей\Desktop\backup_msk\2020.03.13_wiki.dump
